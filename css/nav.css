@@ -1,0 +1,26 @@
+* {
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav_bar {
+    margin: 0;
+    padding: 20px 10px;
+    width: 100%;
+    height: max-content;
+    background-color: deepskyblue;
+    position:sticky;
+}
+.nav_bar ul li{
+    display:inline;
+    margin: 0 6%;
+    text-decoration: none;
+    padding: 5px 5px;
+    width: 10%;
+}
+.nav_bar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+}

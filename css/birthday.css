@@ -1,0 +1,53 @@
+* {
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    display:flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    padding: 20px;
+    justify-content: center;
+}
+.card {
+    width: 300px;
+    height: 300px;
+    background-color: ghostwhite;
+    margin-top: 30px;
+    transition: all 1s;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+.card h2 {
+    margin-top: 150px;
+    margin-left: 50%;
+    transform: translate(-50%,-70%);
+    color: deepskyblue;
+}
+.card img{
+    width: 99.9%;
+    height: 99.9%;
+    border-radius: 10px;
+}  
+#inputbox {
+    width: 99%;
+    height: 70%;
+    border-radius: 10px;
+    border:none;
+    color: deepskyblue;
+}
+#inputbox:hover,#inputbox:active, #inputbox:after {
+    border:1px solid deepskyblue;
+}
+#enter {
+    margin: 10px;
+    width: 30%;
+    height: 10%;
+    color: deepskyblue;
+}
